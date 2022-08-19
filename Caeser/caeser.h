@@ -5,12 +5,12 @@
 #include <iostream>
 
 class Caesar{
-     public:
+public:
      Caesar(){};
     ~Caesar(){};
-    public:
-   void encode_Caesar();
-   void decode_Caesar(std::string code2);
+public:
+     void encode_Caesar();
+     void decode_Caesar(std::string code2);
     
 };
 
