@@ -125,9 +125,9 @@ int main() {
      ht.print();
      ht.clear();
    //ht.print(); 
-	   vt.print();
-	   std::cout << std::endl;
+     vt.print(); 
+     std::cout << std::endl;
    //std::cout << ht.empty();
      vt.swap(ht);
-	   ht.print();
+     ht.print();
 }
