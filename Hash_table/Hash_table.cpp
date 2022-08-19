@@ -16,10 +16,10 @@ class Hash_table {
 		Hash_table(const Hash_table<Key,Value>&);   
 		Hash_table( Hash_table<Key,Value>&&);
 		Hash_table(int count);
-	  ~Hash_table(){};
+	       ~Hash_table(){};
 		bool empty();
 		int hashfunction(Key key);
-    void insert(Key key,Value value);
+                void insert(Key key,Value value);
 		void print();
 		void  clear();
 		int size();
