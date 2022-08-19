@@ -36,7 +36,7 @@ int main() {
 		std::sort(vec.begin(),vec.end());
         std::ofstream write("file1.txt");
 		for(int i = 0;i < vec.size();++i) {
-           write << vec[i] << '\n' ;
+                 write << vec[i] << '\n' ;
 		}
 		write.close();
 		vec.clear();
@@ -53,10 +53,10 @@ int main() {
 		std::sort(vec.begin(),vec.end());
         std::ofstream write1("file2.txt");
 		for(int i = 0;i < vec.size();++i) {
-           write1 << vec[i] << '\n' ;
+           	 write1 << vec[i] << '\n' ;
 		}
 		write1.close();     
-        vec.clear(); 
+                vec.clear(); 
 		}
 		}
 		
@@ -70,10 +70,10 @@ int main() {
 		std::sort(vec.begin(),vec.end());
         std::ofstream write2("file3.txt");
 		for(int i = 0;i < vec.size();++i) {
-           write2 << vec[i] << '\n' ;
+        	 write2 << vec[i] << '\n' ;
 		}
 		write2.close();     
-        vec.clear(); 
+                vec.clear(); 
 		}
 		}
 	   	
@@ -86,10 +86,10 @@ int main() {
 		std::sort(vec.begin(),vec.end());
         std::ofstream write3("file4.txt");
 		for(int i = 0;i < vec.size();++i) {
-           write3 << vec[i] << '\n' ;
+         	  write3 << vec[i] << '\n' ;
 		}
 		write3.close();     
-        vec.clear(); 
+                vec.clear(); 
 		}
 		}
 	   		
@@ -102,10 +102,10 @@ int main() {
 		std::sort(vec.begin(),vec.end());
         std::ofstream write4("file5.txt");
 		for(int i = 0;i < vec.size();++i) {
-           write4 << vec[i] << '\n' ;
+      		 write4 << vec[i] << '\n' ;
 		}
 		write4.close();     
-        vec.clear(); 
+       		vec.clear(); 
 		}
 		}
 	   
@@ -118,10 +118,10 @@ int main() {
 		std::sort(vec.begin(),vec.end());
         std::ofstream write5("file6.txt");
 		for(int i = 0;i < vec.size();++i) {
-           write5 << vec[i] << '\n' ;
+                 write5 << vec[i] << '\n' ;
 		}
 		write5.close();     
-        vec.clear(); 
+       		vec.clear(); 
 		}
 		}
 	   
@@ -134,10 +134,10 @@ int main() {
 		std::sort(vec.begin(),vec.end());
         std::ofstream write6("file7.txt");
 		for(int i = 0;i < vec.size();++i) {
-           write6 << vec[i] << '\n' ;
+         	write6 << vec[i] << '\n' ;
 		}
 		write6.close();     
-        vec.clear(); 
+        	vec.clear(); 
 		}
 		}
 	   	
@@ -150,10 +150,10 @@ int main() {
 		std::sort(vec.begin(),vec.end());
        std::ofstream write7("file8.txt");
 		for(int i = 0;i < vec.size();++i) {
-           write7 << vec[i] << '\n' ;
+           	 write7 << vec[i] << '\n' ;
 		}
 		write7.close();     
-        vec.clear(); 
+        	vec.clear(); 
 		}
 		}
 	   	 
@@ -166,10 +166,10 @@ int main() {
 		std::sort(vec.begin(),vec.end());
         std::ofstream write8("file9.txt");
 		for(int i = 0;i < vec.size();++i) {
-           write8 << vec[i] << '\n' ;
+           	 write8 << vec[i] << '\n' ;
 		}
 		write8.close();     
-        vec.clear(); 
+        	vec.clear(); 
 		}
 		}
 	   
@@ -183,10 +183,10 @@ int main() {
 		std::sort(vec.begin(),vec.end());
         std::ofstream write9("file10.txt");
 		for(int i = 0;i < vec.size();++i) {
-           write9 << vec[i] << '\n' ;
+                 write9 << vec[i] << '\n' ;
 		}
 		write9.close();     
-        vec.clear(); 
+        	vec.clear(); 
 		}
 		}
 	   	
@@ -199,10 +199,10 @@ int main() {
 		std::sort(vec.begin(),vec.end());
         std::ofstream write10("file11.txt");
 		for(int i = 0;i < vec.size();++i) {
-           write10 << vec[i] << '\n' ;
+          	 write10 << vec[i] << '\n' ;
 		}
 		write10.close();     
-        vec.clear(); 
+        	vec.clear(); 
 		}
 		}
 	   
@@ -215,10 +215,10 @@ int main() {
 		std::sort(vec.begin(),vec.end());
         std::ofstream write11("file12.txt");
 		for(int i = 0;i < vec.size();++i) {
-           write11 << vec[i] << '\n' ;
+          	 write11 << vec[i] << '\n' ;
 		}
 		write11.close();     
-        vec.clear(); 
+                 vec.clear(); 
 		}
 		}
 	   
@@ -231,10 +231,10 @@ int main() {
 		std::sort(vec.begin(),vec.end());
         std::ofstream write12("file13.txt");
 		for(int i = 0;i < vec.size();++i) {
-           write12 << vec[i] << '\n' ;
+          	 write12 << vec[i] << '\n' ;
 		}
 		write12.close();     
-        vec.clear(); 
+        	vec.clear(); 
 		}
 		}
 	   
@@ -247,10 +247,10 @@ int main() {
 		std::sort(vec.begin(),vec.end());
         std::ofstream write13("file14.txt");
 		for(int i = 0;i < vec.size();++i) {
-           write13 << vec[i] << '\n' ;
+                 write13 << vec[i] << '\n' ;
 		}
 		write13.close();     
-        vec.clear(); 
+        	vec.clear(); 
 		}
 		}
 	   
@@ -264,10 +264,10 @@ int main() {
 		std::sort(vec.begin(),vec.end());
         std::ofstream write14("file15.txt");
 		for(int i = 0;i < vec.size();++i) {
-           write14 << vec[i] << '\n' ;
+          	 write14 << vec[i] << '\n' ;
 		}
 		write14.close();     
-        vec.clear(); 
+        	vec.clear(); 
 		}
 		}
 	   
@@ -280,10 +280,10 @@ int main() {
 		std::sort(vec.begin(),vec.end());
         std::ofstream write15("file16.txt");
 		for(int i = 0;i < vec.size();++i) {
-           write15 << vec[i] << '\n' ;
+          	 write15 << vec[i] << '\n' ;
 		}
 		write15.close();     
-        vec.clear(); 
+        	vec.clear(); 
 		}
 		}
 	   
@@ -296,10 +296,10 @@ int main() {
 		std::sort(vec.begin(),vec.end());
         std::ofstream write16("file17.txt");
 		for(int i = 0;i < vec.size();++i) {
-           write16 << vec[i] << '\n' ;
+          	 write16 << vec[i] << '\n' ;
 		}
 		write16.close();     
-        vec.clear(); 
+        	vec.clear(); 
 		}
 		}
 	   	
@@ -312,10 +312,10 @@ int main() {
 		std::sort(vec.begin(),vec.end());
         std::ofstream write17("file18.txt");
 		for(int i = 0;i < vec.size();++i) {
-           write17 << vec[i] << '\n' ;
+         	 write17 << vec[i] << '\n' ;
 		}
 		write17.close();     
-        vec.clear(); 
+       		vec.clear(); 
 		}
 		}
 	   
@@ -328,10 +328,10 @@ int main() {
 		std::sort(vec.begin(),vec.end());
         std::ofstream write18("file19.txt");
 		for(int i = 0;i < vec.size();++i) {
-           write18 << vec[i] << '\n' ;
+           	 write18 << vec[i] << '\n' ;
 		}
 		write18.close();     
-        vec.clear(); 
+       		 vec.clear(); 
 		}
 		}
 	   	
@@ -343,10 +343,10 @@ int main() {
 		std::sort(vec.begin(),vec.end());
         std::ofstream write19("file20.txt");
 		for(int i = 0;i < vec.size();++i) {
-           write19 << vec[i] << '\n' ;
+         	 write19 << vec[i] << '\n' ;
 		}
 		write19.close();     
-        vec.clear(); 
+       		vec.clear(); 
 		}
 		}
 	   	
@@ -359,7 +359,7 @@ int main() {
 
 
       ///////// file1 and  file2 into outtext.txt
-	    std::ifstream file1("file1.txt");
+        std::ifstream file1("file1.txt");
 		std::ifstream file2("file2.txt");
 		std::ofstream file ("output.txt");
 
@@ -401,7 +401,7 @@ int main() {
          
 
 
-    	std::ifstream  out("output.txt");
+    	        std::ifstream  out("output.txt");
 		std::ifstream  out1("output1.txt");
 		std::ofstream  fout("put.txt");
 
@@ -409,7 +409,7 @@ int main() {
 		std::ifstream  out3("output3.txt");
 		std::ofstream  fout1("put1.txt");
 
-     	std::ifstream  out4("output4.txt");
+     	        std::ifstream  out4("output4.txt");
 		std::ifstream  out5("output5.txt");
 		std::ofstream  fout2("put2.txt");
 
@@ -417,14 +417,12 @@ int main() {
 		std::ifstream  out7("output7.txt");
 		std::ofstream  fout3("put3.txt");
 
-    	std::ifstream  out8("output8.txt");
+    	        std::ifstream  out8("output8.txt");
 		std::ifstream  out9("output9.txt");
 		std::ofstream  fout4("put4.txt");
 
 
-
-
-     	std::ifstream  put("put1.txt");
+     	        std::ifstream  put("put1.txt");
 		std::ifstream  put1("put2.txt");
 		std::ofstream  fput("fput.txt");
 
@@ -433,68 +431,63 @@ int main() {
 		std::ofstream  fput1("fput1.txt");
 
 
-
-
-     	std::ifstream  afin("fput.txt");
+         	std::ifstream  afin("fput.txt");
 		std::ifstream  afin2("fput1.txt");
 		std::ofstream  affin("afin.txt");
 
 
-
 		std::ifstream  finall("put.txt");
-        std::ifstream  finall1("afin.txt");
+                std::ifstream  finall1("afin.txt");
 		std::ofstream  ofinal("ofinal.txt");
-
 
 
  		merge_to_file(file1, file2, file);		
  		merge_to_file(file3, file4, filea);
-     	merge_to_file(file5, file6, fileb);
+     	        merge_to_file(file5, file6, fileb);
  		merge_to_file(file7, file8, filec);
-    	merge_to_file(file9, file10, filed);
+    	        merge_to_file(file9, file10, filed);
  		merge_to_file(file11, file12, filee);
-     	merge_to_file(file13, file14, filef);
+     	        merge_to_file(file13, file14, filef);
  		merge_to_file(file15, file16, fileg); 
 		merge_to_file(file17, file18, fileh);
  		merge_to_file(file19, file20, filek);
 
-    	file.close();
+    		file.close();
 		filea.close();
-        fileb.close();
-    	filec.close();
+		fileb.close();
+		filec.close();
 		filed.close();
-        filee.close();
-        filef.close();
-    	fileg.close();
+		filee.close();
+		filef.close();
+		fileg.close();
 		fileh.close();
-        filek.close();
+		filek.close();
 
- 		to_file(out,out1,fout);		
- 	    to_file(out2,out3,fout1);
-        to_file(out4,out5,fout2);
- 		to_file(out6,out7,fout3);
-    	to_file(out8,out9,fout4);
+		to_file(out,out1,fout);		
+		to_file(out2,out3,fout1);
+		to_file(out4,out5,fout2);
+	        to_file(out6,out7,fout3);
+		to_file(out8,out9,fout4);
 
-         fout.close();
-         fout1.close();	
-         fout2.close();
-         fout3.close();			
-		 fout4.close();
+		fout.close();
+		fout1.close();	
+		fout2.close();
+		fout3.close();			
+	        fout4.close();
 		 
  		to_file(put,put1,fput);		
- 	    to_file(put2,put3,fput1);
+ 	        to_file(put2,put3,fput1);
 
-          fput.close();
-		  fput1.close();
-
-
-        to_file(afin,afin2,affin);
-
-         affin.close();
+                fput.close();
+		fput1.close();
+	
+               to_file(afin,afin2,affin);
+                
+	       affin.close();
 		 
-        to_file(finall,finall1,ofinal);
+               to_file(finall,finall1,ofinal);
  
-         ofinal.close();
+               ofinal.close();
 
 		 }
 
