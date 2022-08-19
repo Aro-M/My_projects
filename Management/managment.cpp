@@ -1,7 +1,6 @@
 #include <iostream>
 #include <fstream>
-class Person
-{
+class Person {
 public:
     void add_data();
     void new_add();
@@ -202,8 +201,8 @@ void edit(std::string str, std::ifstream& fail,int index, std::string id)
         int value;
         do
         {
-            std::cout << "edit a contact\nid[1]\nname[2]\nsurname[3]\ndate_of_birth[4]\nnumber[5]\nemail[6]\nexit[0]" << std::endl;
-      std::cin >> value;
+        std::cout << "edit a contact\nid[1]\nname[2]\nsurname[3]\ndate_of_birth[4]\nnumber[5]\nemail[6]\nexit[0]" << std::endl;
+        std::cin >> value;
       switch(value){
           case 1:
               std::cin >> str1;
