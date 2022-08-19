@@ -26,9 +26,6 @@ int  matem_oper(int number,int number2,char c);
 std::map<std::string,int> imp;
 std::map<std::string ,std::string>smp;
 
-
-
-
 int main(){
 
 	char data[1000];
@@ -36,8 +33,7 @@ int main(){
 	std::string types ="";
 	read.open("interpreter.txt");
         while(!read.eof()){
-        
-		read.getline(data,10000);
+           read.getline(data,10000);
  	  howtypes(data);
  
         }
