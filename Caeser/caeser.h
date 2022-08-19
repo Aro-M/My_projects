@@ -15,8 +15,8 @@ class Caesar{
 };
 
  void Caesar::encode_Caesar() {
-    std::string cesar_algorithm_code;
-     getline(std::cin,cesar_algorithm_code);
+   std::string cesar_algorithm_code;
+   getline(std::cin,cesar_algorithm_code);
    std::string cesar_algorithm_code1;
    std::string code2;
    for(int i = 0; i < cesar_algorithm_code.length();++i){
@@ -74,16 +74,13 @@ class Caesar{
             if(code2[i] >= 88 && code2[i]  <=90 ){
                  str1 =code2[i];
                 code3[i] = str1 -  23;
-               
 
                 } 
             if(code2[i] >=65 && code2[i] <= 87){
                    str1 = code2[i];
-                    code3[i] = str1 + 3;
-            
+                    code3[i] = str1 + 3;       
                 }
-            
-          
+
             if(code2[i] >= 120 && code2[i]  <= 122 ){
                 str1 =code2[i];
                code3[i]= str1 -  23;
