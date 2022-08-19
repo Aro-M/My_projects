@@ -43,7 +43,7 @@ Hash_table<Key, Value>::Hash_table(int count) : vec(count) {}
 
 template <typename Key, typename Value>
 int Hash_table<Key, Value>::size() {
-    return vec.size();
+    return vec.size(); 
 }
 
 template <typename Key, typename Value>
