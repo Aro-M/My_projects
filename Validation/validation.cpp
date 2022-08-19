@@ -10,7 +10,7 @@ std::string phone_number_field_validation();
 
 
 
-std::string phone_number_field_validation() {
+ std::string phone_number_field_validation() {
  std::string correct = "true";
  std::string incorrect = "false";
  std::string phone;
@@ -25,9 +25,8 @@ std::string phone_number_field_validation() {
      return correct;
    }
    else{	
-		return incorrect;
-		}
-
+     return incorrect;
+	}
   }
   return incorrect;
 
@@ -40,15 +39,15 @@ std::string credit_card_number_field_validation(){
 	std::cout << "Input credit card " << std::endl;
 	std::cin>> credit;
 	if(credit.length() < 13 || credit.length() >16  ){
-			return incorrect;
+		return incorrect;
 	}
 	if(credit.length() >= 13  && credit.length() <=16){
 	for(int i = 0;i< credit.length();++i) {
 		if(credit[i]  < 48 || credit[i] > 57) {
-		 return incorrect;
+		  return incorrect;
 		 exit(0);
 		}
-	}
+	   }
 	}
 	return correct;
 
@@ -56,11 +55,11 @@ std::string credit_card_number_field_validation(){
 
 
 std::string web_links_field_validation(){
-		std::string incorrect = "false";
-		std::string correct = "true";
-		std::string web_links;
-		std::cout << "Input web_links " << std::endl;
-		std::cin >>web_links;
+  std::string incorrect = "false";
+  std::string correct = "true";
+  std::string web_links;
+  std::cout << "Input web_links " << std::endl;
+  std::cin >>web_links;
 
       for(int i = 0; i < web_links.length(); ++i ) {
 	   if(web_links[i] >=97 && web_links[i] <=122) {
@@ -92,7 +91,7 @@ std::string field_validation() {
 	std::string correct = "true";
 	std::string incorrect = "false";
 	std::cout << "Input field data " << std::endl;
-    std::string data;
+        std::string data;
  	std::cin >> data;
 	if( data[0] == 46) {
 		return incorrect;
@@ -148,8 +147,8 @@ std::string number_field_validation() {
 	std::string number;	
 	std::cout << "Input number " << std::endl;	
 	std::cin >>number;
-	for(int i = 0 ; i< number.length();++i) {
-     if(number[i] >= 48 && number[i] <= 57 ){
+	 for(int i = 0 ; i< number.length();++i) {
+          if(number[i] >= 48 && number[i] <= 57 ){
 	   return correct;
 	 }
 	}
@@ -170,23 +169,23 @@ std::cin >> number;
 switch(number) {
 
 		case 1:	
-	    std::cout << email_field_validation();
-      	    break;
+	         std::cout << email_field_validation();
+      	         break;
 		case 2:
-		std::cout <<number_field_validation();
-			break;
+		 std::cout <<number_field_validation();
+		 break;
 		case 3:
-	    std::cout <<field_validation();
-			break;
+	         std::cout <<field_validation();
+		 break;
 		case 4:
-		std::cout << web_links_field_validation();
-			break;
+		 std::cout << web_links_field_validation();
+		 break;
 		case 5:
-	  	std::cout<<credit_card_number_field_validation();
-			break;
+	  	 std::cout<<credit_card_number_field_validation();
+		 break;
 		case 6:
-	    std::cout<<	phone_number_field_validation();
-			break;
+	         std::cout<<phone_number_field_validation();
+		 break;
 		default:
 			std::cout << "Invalid number" << std::endl;
 }
@@ -196,7 +195,7 @@ switch(number) {
 
 std::string email_field_validation() {
 	std::string correct = "true";
-    std::string incorrect = "false";
+        std::string incorrect = "false";
 	std::string email;
 	std::cout << "Input Email " << std::endl;
 	std::cin >> email;
