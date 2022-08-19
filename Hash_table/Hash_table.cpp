@@ -8,20 +8,18 @@
 template<typename Key, typename Value>
 class Hash_table {
 
-
 		private:
 		std::vector<std::list<std::pair<Key,Value>>> vec;
-
-
+		
 		public:
 		Hash_table();
 		Hash_table(const Hash_table<Key,Value>&);   
 		Hash_table( Hash_table<Key,Value>&&);
 		Hash_table(int count);
-	    ~Hash_table(){};
+	  ~Hash_table(){};
 		bool empty();
 		int hashfunction(Key key);
-        void insert(Key key,Value value);
+    void insert(Key key,Value value);
 		void print();
 		void  clear();
 		int size();
@@ -66,16 +64,13 @@ void  Hash_table<Key,Value>::clear() {
         std::cout << "Vec havn't size " << std::endl;
    		}
    else {
-   
      vec.clear();
-    	
      }
-
 	} 
 
 template<typename Key,typename Value>
 bool Hash_table<Key,Value>::empty() {
-       int sum = vec.size();
+  int sum = vec.size();
 			if(0 == sum) {
 		  return true;
 		}
@@ -84,8 +79,7 @@ bool Hash_table<Key,Value>::empty() {
 }
 
 template <typename Key,typename Value>
-int Hash_table<Key,Value>::hashfunction(Key key) {
-   
+int Hash_table<Key,Value>::hashfunction(Key key) { 
    int size1 = vec.size()+1;
    return key % size1;
 }
@@ -94,31 +88,24 @@ int Hash_table<Key,Value>::hashfunction(Key key) {
 
 template<typename Key,typename Value>
 void Hash_table<Key,Value>::insert(Key key,Value value){
-     int size = 0;
+ int size = 0;
 	if(vec.size() != 0) {
 		    vec[hashfunction(key)].push_back(make_pair(key,value));
 	}else {
 	vec[++size];
-    
 		    vec[hashfunction(key)].push_back(make_pair(key,value));
-
-	  
 	}
-    
-
 }
 
 template <typename Key,typename Value>
 void Hash_table<Key,Value>::print() {
-for(int i = 0; i < vec.size();++i) {
+ for(int i = 0; i < vec.size();++i) {
   auto it  =  vec[i].begin();
-  for(it; it != vec[i].end();++it) {
+   for(it; it != vec[i].end();++it) {
    std::cout <<"First " << it->first << std::endl;
    std::cout << "Second " << it->second << std::endl; 
   		}
-
-	}
-
+	 }
 }
 
 
@@ -134,13 +121,13 @@ int main() {
   vt.insert(1262,"jawsadzme");
   vt.insert(205,"assdasaz");
 
-  std::cout <<  ht.empty();
+     std::cout <<  ht.empty();
      ht.print();
      ht.clear();
-    // ht.print();
-	  vt.print();
-	  std::cout << std::endl;
-//	 std::cout << ht.empty();
-       vt.swap(ht);
+   //ht.print();
+	   vt.print();
+	   std::cout << std::endl;
+   //std::cout << ht.empty();
+     vt.swap(ht);
 	   ht.print();
 }
