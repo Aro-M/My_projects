@@ -1,11 +1,11 @@
 #include <iostream>
 #include <initializer_list>
 template <typename T>
-class Vector {
-public:
+ class Vector {
+  public:
     Vector();
     ~Vector();
-public:
+  public:
     void clear();
     void shrink_to_fit();
     int* data();
