@@ -13,7 +13,7 @@ bool Safe(int** arr, int row, int col, int X)
     int i, j;
     for (i = 0; i < col; ++i) {
         if (arr[row][i]) {
-            return false;
+           return false;
         }
     }
     for (i = row, j = col; i >= 0 && j >= 0; --i, --j) {
